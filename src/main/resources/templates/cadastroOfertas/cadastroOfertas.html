@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR" xmlns:th="http://thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+
+<head>
+    <title>Login V3</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="cadOfertas/main.css">
+</head>
+
+<body>
+    <h1>Cadastrar Unidades</h1>
+
+    <div class="limiter">
+        <div class="wrap-login100">
+            <form class="login100-form validate-form" method="post">
+                <span class="login100-form-logo">
+                    <i class="zmdi zmdi-landscape"></i>
+                </span>
+                <div class="wrap-input100 validate-input col-md-4" data-validate="Ano Letivo">Ano Letivo
+                    <input class="input100" type="date" name="anoletivo" placeholder="Ano Letivo">
+                </div>
+                <div class="wrap-input100 validate-input" data-validate="Unidade">
+                    <input class="input100" type="search" name="unidade" placeholder="Unidade">
+                </div>
+                <div class="wrap-input100 validate-input" data-validate="Curso">
+                    <input class="input100" type="text" name="curso" placeholder="Curso">
+                </div>
+                <div class="wrap-input100 validate-input" data-validate="Serie">
+                    <input class="input100" type="text" name="serie" placeholder="Série">
+                </div>
+                Turno
+                <select name="Turno" id="" aria-placeholder="Turno">
+                    <option value="">Manhã</option>
+                    <option value="">Tarde</option>
+                    <option value="">Noite</option>
+                </select>
+                <div class="wrap-input100 validate-input" data-validate="Periodo Inscricao">Periodo Inscrição Inicio
+                    <input class="input100" type="date" name="anoletivo" placeholder="Periodo Inscrição Inicio">
+                    Periodo Inscrição Fim
+                    <input class="input100" type="date" name="anoletivo" placeholder="Periodo Inscrição Fim">
+                </div>
+
+                <div class="wrap-input100 validate-input" data-validate="codigo">
+                    <input class="input100" type="text" name="codigo" placeholder="Código Totvs">
+                </div>
+               <div class="row">
+                <div class="container-login100-form-btn">
+                    <button class="login100-form-btn" type="submit">
+                        <a href="/">Voltar</a> 
+                    </button>
+                    <button class="login100-form-btn" type="submit">
+                        Salvar
+                    </button>
+                </div>        
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
