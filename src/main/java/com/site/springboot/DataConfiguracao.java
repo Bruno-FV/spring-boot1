@@ -1,4 +1,4 @@
-/*package com.site.springboot;
+package com.site.springboot;
 
 import java.net.URI;
 import java.net.URISyntaxException;
@@ -28,4 +28,4 @@ public class MainConfig {
     }
 }
     
-}*/
+}
